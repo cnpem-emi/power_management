@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "gerenciador_de_bateria_simbolos")(type "KiCad")(uri "${KIPRJMOD}/gerenciador_de_bateria_simbolos.kicad_sym")(options "")(descr ""))
+  (lib (name "usb_bq25629")(type "KiCad")(uri "${KIPRJMOD}/usb_bq25629.kicad_sym")(options "")(descr ""))
+)
