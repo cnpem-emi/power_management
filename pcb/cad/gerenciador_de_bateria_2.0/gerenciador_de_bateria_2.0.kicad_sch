@@ -1936,6 +1936,25 @@
     (pin "2" (uuid 730eb9d1-c06e-400b-95fc-3726a3c98daf))
   )
 
+  (symbol (lib_id "Device:C") (at 108.712 53.086 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 9de777ca-ce4f-4355-b350-be8705b17c42)
+    (property "Reference" "C1" (id 0) (at 111.633 51.8159 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "NC" (id 1) (at 111.633 54.3559 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 109.6772 56.896 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 108.712 53.086 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3577db7c-a87b-46fe-93e8-f92f56c64483))
+    (pin "2" (uuid 3c72f704-6da0-4687-a2df-8d966654dc46))
+  )
+
   (symbol (lib_id "Switch:SW_Push") (at 147.32 143.637 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a5ff49c2-b161-4257-a8c8-19c401d79aa2)
@@ -2292,6 +2311,9 @@
     )
     (path "/893a3b32-d2e6-4966-843c-a94b71754248"
       (reference "#PWR0109") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/9de777ca-ce4f-4355-b350-be8705b17c42"
+      (reference "C1") (unit 1) (value "NC") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/9b755290-3e9c-4060-8937-1bc9c1c65b4b"
       (reference "C3") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
