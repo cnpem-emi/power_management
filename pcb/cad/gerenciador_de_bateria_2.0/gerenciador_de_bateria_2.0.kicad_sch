@@ -1803,7 +1803,7 @@
     (property "Value" "USB_BQ25629" (id 1) (at 87.249 66.802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" (id 2) (at 85.979 69.342 0)
+    (property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001" (id 2) (at 85.979 69.342 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 85.979 69.342 0)
@@ -2440,7 +2440,7 @@
       (reference "U1") (unit 1) (value "MP2731") (footprint "gerenciador_de_bateria_2:QFN-26_MP2731")
     )
     (path "/5c53f167-a398-4a5f-9744-88a876c8b5a1"
-      (reference "U2") (unit 1) (value "USB_BQ25629") (footprint "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal")
+      (reference "U2") (unit 1) (value "USB_BQ25629") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
     )
   )
 )
